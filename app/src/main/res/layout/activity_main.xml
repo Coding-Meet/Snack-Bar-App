@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/shortTimeSnackBarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Time SnackBar Show"/>
+
+
+    <Button
+        android:id="@+id/shortTimeSnackBarActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Time SnackBar Show With Action"/>
+
+
+    <Button
+        android:id="@+id/longTimeSnackBarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Time SnackBar Show"/>
+
+
+    <Button
+        android:id="@+id/longTimeSnackBarActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Time SnackBar Show With Action"/>
+
+
+    <Button
+        android:id="@+id/indefiniteTimeSnackBarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indefinite Time SnackBar Show"/>
+
+
+    <Button
+        android:id="@+id/indefiniteSnackBarActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indefinite Time SnackBar Show With Action"/>
+
+
+    <Button
+        android:id="@+id/customSnackbarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom SnackBar"/>
+
+    <Button
+        android:id="@+id/customSnackbarActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom SnackBar With Action"/>
+</LinearLayout>
